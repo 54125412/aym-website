@@ -99,13 +99,13 @@ button:hover{
 .year-card{
     width: 140%;
     margin: 15px auto;
-    padding: 18px;
+    padding: 25px;
     background: #4A0D17;
     color: #FFF8E7;
     font-size: 40px;
     font-weight: bold;
     border: 3px solid #D4AF37;
-    border-radius: 15px;
+    border-radius: 30px;
     cursor: pointer;
     transition: 0.3s;
 }
