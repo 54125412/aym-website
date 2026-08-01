@@ -75,7 +75,7 @@ button:hover{
     margin-bottom: 20px;
 }
 .dashboard{
-    width: 95%;
+    width: 100%;
     max-width: 100px;
     margin: 100px auto;
     text-align: center;
@@ -97,7 +97,7 @@ button:hover{
     transform: scale(1.03);
 }
 .year-card{
-    width: 90%;
+    width: 105%;
     margin: 15px auto;
     padding: 18px;
     background: #4A0D17;
