@@ -30,27 +30,7 @@ if(gallery){
    gallery.appendChild(img);
 });
 }
-const videos=[
-   "video1.mp4",
-   "video2.mp4",
-   "video3.mp4",
-   "video4.mp4",
-   "video5.mp4",
-   "video6.mp4",
-];
-const videoGallery=
-document.getElementById("videoGallery");
 
-if (videoGallery){
-   videos.forEach(video =>{
-      const vid=
-document.createElement("video");
-      vid.src="videos/" + video;
-      vid.controls=true ;
-      videoGallery.appendChild(vid);      
-   });
-
-}
 // Graph Page
 const graphCanvas=
 document.getElementById("expenseChart");
