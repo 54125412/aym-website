@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>📊Kharcha no Graph</title>
+    <link rel="stylesheet" href="style.css">
+    <script 
+      src="https://cdn.jsdelivr.net/npm/chart.js">
+    </script>
+    <meta name="viewport-width,initial-scale=1.0">
+</head>
+
+<body>
+
+     <button class="back-btn" onclick="history.back()">👈</button>
+
+     <div class="page-container">
+
+    <div class="graph-page">
+    
+     <h1 class="graph-title">📊Kharcha no Graph</h1>
+        
+    <h2>Main Expenses</h2>
+
+    <div class="graph-container">
+        <canvas id="expenseChart"></canvas>
+    </div>
+
+    <h2>Daily Kharcho (Day 1 - Day 7)</h2>
+
+    <div class="graph-container">
+        <canvas id="dailyChart"></canvas>
+    </div>
+
+    <div class="summary-box">
+
+     <div class="summary-row">
+      <span>💰Total Collection = </span>
+      <span id="totalCollection"></span>
+     </div>  
+
+     <hr>
+
+     <div class="summary-row">
+      <span>💸Total Kharcho = </span>
+      <span id="totalKharcho"></span>
+     </div>
+
+     <hr>
+
+     <div class="summary-row">
+      <span>✅️Remainig Balance = </span>
+      <span id="remainingBalance"></span>
+     </div>
+
+    </div>
+    </div>
+
+    <script src="script.js"> </script>
+
+</body>
+</html>
